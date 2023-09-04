@@ -1,0 +1,34 @@
+.navbar {
+    margin-top: 50px;
+    @media (max-width: 991.98px) {
+        margin-top: 30px;
+    }
+
+    button.navbar-toggler {
+        background-color: $c-white;
+        span {
+            background-image: url('/src/assets/imgs/icons/sparkle.svg');
+        }
+    }
+    .collapse {
+        .navbar-nav {
+            li.nav-item {
+                padding: 0 8px;
+
+                .nav-link {
+                    font-family: $main-font;
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                    line-height: 1;
+                    color: $c-black;
+                    background-color: $c-white;
+                    
+                    &:hover {
+                        background-color: $c-black;
+                        color: $c-white;
+                    }
+                }
+            }
+        }
+    }
+}

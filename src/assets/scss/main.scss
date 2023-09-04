@@ -1,0 +1,17 @@
+//abstracts
+@import "./abstracts/variables";
+
+//base 
+@import "./base/colors";
+@import "./base/typography";
+
+//components
+@import "./components/navbar";
+@import "./components/tools";
+
+//layout
+@import "./layout/footer";
+@import "./layout/navbar";
+
+//pages
+@import "./pages/home"
